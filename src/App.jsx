@@ -8,6 +8,7 @@ import Testimonial from './sections/Testimonial'
 import Contact from './sections/Contact'
 import Footer from './sections/Footer'
 import { SpinningText } from './sections/SpinningText'
+import { Meteors } from './components/Meteors'
 
 const App = () => {
   return (
@@ -21,6 +22,9 @@ const App = () => {
       {/* <SpinningText text="Spinning Hello!" /> */}
       <Contact/>
       <Footer/>
+       <div className="relative w-full h-screen overflow-hidden">
+      <Meteors number={5} minDuration={10} maxDuration={10} minDelay={0} maxDelay={0} />
+      </div>
       <div />
     </div>
   )
