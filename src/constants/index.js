@@ -225,12 +225,13 @@ export const myProjects = [
 export const mySocials = [
   {
     name: "WhatsApp",
-    href: "",
+    // href: "https://wa.me/919115203477",
+    href: "https://wa.me/919115203477?text=Hello%20I%20want%20to%20connect",
     icon: "/assets/socials/whatsApp.svg",
   },
   {
     name: "Linkedin",
-    href: "https://www.linkedin.com/in/ali-sanati/",
+    href: "https://www.linkedin.com/in/rishangi-yadav-webdeveloper/",
     icon: "/assets/socials/linkedIn.svg",
   },
   {
