@@ -1,37 +1,36 @@
 export const myProjects = [
   {
     id: 1,
-    title: "E-commerce Platform",
+    title: "E-commerce health-tech aggregator platform (BloodKart)",
     description:
-      "Facilitates purchases from international websites like Amazon and eBay, allowing customers to shop from these sites and have products delivered domestically.",
+      "BloodKart.com is an AI-powered digital healthcare marketplace and aggregator in India that connects users with diagnostic labs, pharmacies, and home healthcare services like nursing and physiotherapy.",
     subDescription: [
-      "Built a scalable application with ASP.NET Core MVC, integrating global platforms like Amazon for domestic delivery.",
-      "Implemented secure authentication and database management using ASP.NET Core Identity and Entity Framework Core.",
-      "Designed a responsive frontend with Tailwind CSS, enhancing user experience.",
-      "Added payment systems, localization, and product filtering for functionality improvements.",
+      "BloodKart provides home sample collection for blood tests, X-rays/MRIs, medicine delivery, doctor consultations, and specialized care like physiotherapy and nursing",
+      "It is an e-commerce health-tech aggregator platform designed for on-demand diagnostic and medical services, similar to a 'marketplace' model for health services",
+      "It acts as a platform for booking home blood tests, radiology, and other medical services",
     ],
-    href: "",
+    href: "https://www.bloodkart.com/",
     logo: "",
-    image: "/assets/projects/accessories.jpg",
+    image: "/assets/projects/bloodkart.png",
     tags: [
       {
         id: 1,
-        name: "C#",
+        name: "Node.js",
         path: "/assets/logos/csharp.svg",
       },
       {
         id: 2,
-        name: ".Net",
+        name: "Express.js",
         path: "/assets/logos/dotnet.svg",
       },
       {
         id: 3,
-        name: "Ef Core",
+        name: "Bootstrap",
         path: "/assets/logos/efcore.png",
       },
       {
         id: 4,
-        name: "TailwindCSS",
+        name: "Ant Design",
         path: "/assets/logos/tailwindcss.svg",
       },
     ],

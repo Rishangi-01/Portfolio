@@ -1,33 +1,43 @@
-import React from 'react'
-import Navbar from './sections/Navbar'
-import Hero from './sections/Hero'
-import About from './sections/About'
-import Projects from './sections/Projects'
-import Experiences from './sections/Experiences'
-import Testimonial from './sections/Testimonial'
-import Contact from './sections/Contact'
-import Footer from './sections/Footer'
-import { SpinningText } from './sections/SpinningText'
-import { Meteors } from './components/Meteors'
+import React from "react";
+import Navbar from "./sections/Navbar";
+import Hero from "./sections/Hero";
+import About from "./sections/About";
+import Projects from "./sections/Projects";
+import Experiences from "./sections/Experiences";
+import Testimonial from "./sections/Testimonial";
+import Contact from "./sections/Contact";
+import Footer from "./sections/Footer";
+import { Meteors } from "./components/Meteors";
+import { Particles } from "./components/Particles";
 
 const App = () => {
   return (
-    <div className='container mx-auto max-w-7xl '>
-      <Navbar/>
-      <Hero/>
-      <About/>
-      <Projects/>
-      <Experiences/>
-      <Testimonial/>
-      {/* <SpinningText text="Spinning Hello!" /> */}
-      <Contact/>
-      <Footer/>
-       <div className="relative w-full h-screen overflow-hidden">
-      <Meteors number={5} minDuration={10} maxDuration={10} minDelay={0} maxDelay={0} />
+    <div className="relative">
+      {/* Meteors as background */}
+      <div className="fixed inset-0 -z-10">
+        <Meteors />
+        <Particles
+                className="absolute inset-0 -z-50"
+                quantity={100}
+                ease={80}
+                color={"#ffffff"}
+                refresh
+              />
       </div>
-      <div />
-    </div>
-  )
-}
 
-export default App
+      {/* Main content */}
+      <div className="container-fluid mx-auto max-w-8xl relative z-10">
+        <Navbar />
+        <Hero />
+        <About />
+        <Projects />
+        <Experiences />
+        <Testimonial />
+        <Contact />
+        <Footer />
+      </div>
+    </div>
+  );
+};
+
+export default App;

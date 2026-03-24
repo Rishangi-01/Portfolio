@@ -29,7 +29,7 @@ const Navbar = () => {
             href="/"
             className="text-xl font-bold transition-colors text-neutral-400 hover:text-white"
           >
-            ALi
+            <img src="assets/logo.png" alt="logo" className="w-[10rem] h-[5rem] inline-block mr-2" />
           </a>
           <button
             onClick={() => setIsOpen(!isOPen)}

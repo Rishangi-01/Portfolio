@@ -12,14 +12,14 @@ const ParallaxBackground = () => {
     <section className="absolute inset-0 bg-black/40">
       <div className="relative h-screen overflow-y-hidden">
         {/* Background Sky */}
-        <div
+        {/* <div
           className="absolute inset-0 w-full h-screen -z-50"
           style={{
-            backgroundImage: "url(/assets/sky.jpg)",
+            backgroundImage: "url(/assets/rishi1.jpg)",
             backgroundPosition: "bottom",
             backgroundSize: "cover",
           }}
-        />
+        /> */}
         {/* Mountain Layer 3 */}
         <motion.div
           className="absolute inset-0 -z-40"

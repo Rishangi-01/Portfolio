@@ -137,21 +137,21 @@ body {
   @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/20;
 }
 
-@layer utilities {
+@theme inline {
+  --animate-meteor: meteor 5s linear infinite;
+ 
   @keyframes meteor {
     0% {
-      transform: translateX(0) translateY(0);
+      transform: rotate(var(--angle)) translateX(0);
+      opacity: 1;
+    }
+    70% {
       opacity: 1;
     }
     100% {
-      transform: translateX(500px) translateY(500px);
+      transform: rotate(var(--angle)) translateX(-500px);
       opacity: 0;
     }
   }
-
-  .animate-meteor {
-    animation-name: meteor;
-    animation-timing-function: linear;
-    animation-fill-mode: forwards;
-  }
 }
+
