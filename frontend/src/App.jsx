@@ -2,6 +2,10 @@ import React from "react";
 import { Meteors } from "./components/Meteors";
 import { Particles } from "./components/Particles";
 import Home from "./pages/Home";
+import AboutPage from "./pages/About";
+import Workpage from "./pages/Work";
+import ContactUs from "./pages/Contact";
+import { Route, Routes } from "react-router-dom";
 
 const App = () => {
   return (
@@ -19,7 +23,12 @@ const App = () => {
 
       {/* Main content */}
       <div className="container-fluid mx-auto max-w-8xl relative z-10">
-        <Home />
+         <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<AboutPage />} />
+          <Route path="/work" element={<Workpage />} />
+          <Route path="/contact-us" element={<ContactUs />} />
+        </Routes>
       </div>
     </div>
   );

@@ -9,6 +9,7 @@ const HeroText = () => {
     visible: { opacity: 1, x: 0 },
   };
   return (
+    <>
     <div className="z-10 mt-20 text-center md:mt-40 md:text-left rounded-3xl bg-clip-text">
       {/* Desktop View */}
       <div className="flex-col hidden md:flex c-space">
@@ -98,6 +99,10 @@ const HeroText = () => {
         </div>
       </div>
     </div>
+    {/* <div style={{marginTop: '6rem'}}>
+      <img src="/assets/Rishangi-img.png" style={{height: '40rem'}} />
+    </div> */}
+    </>
   );
 };
 

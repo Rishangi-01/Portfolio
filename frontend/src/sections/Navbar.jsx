@@ -5,7 +5,7 @@ function Navigation() {
   return (
     <ul className="nav-ul">
       <li className="nav-li">
-        <a href="/home" className="nav-link">Home</a>
+        <a href="/" className="nav-link">Home</a>
       </li>
       <li className="nav-li">
         <a href="/about" className="nav-link">About</a>
@@ -29,7 +29,7 @@ const Navbar = () => {
             href="/"
             className="text-xl font-bold transition-colors text-neutral-400 hover:text-white"
           >
-            <img src="assets/logo.png" alt="logo" className="w-[10rem] h-[5rem] inline-block mr-2" />
+            <img src="assets/port-logo.png" alt="logo" className="h-[4rem] inline-block mr-2" />
           </a>
           <button
             onClick={() => setIsOpen(!isOPen)}
