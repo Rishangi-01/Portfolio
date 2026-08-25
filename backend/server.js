@@ -18,6 +18,7 @@ connectDB();
 const allowedOrigins = [
   "http://localhost:5173",
   "https://portfolio-cyan-xi-14.vercel.app",
+  "https://portfolio-cyan-xi-14.vercel.app/"
 ];
 
 app.use(
