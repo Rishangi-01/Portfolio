@@ -1,11 +1,33 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Meteors } from "./components/Meteors";
 import { Particles } from "./components/Particles";
 import Home from "./pages/Home";
 
 const App = () => {
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    const loadingTimer = window.setTimeout(() => setIsLoading(false), 1000);
+
+    return () => window.clearTimeout(loadingTimer);
+  }, []);
+
   return (
     <div className="relative">
+      {isLoading && (
+        <div className="loading-screen" role="status" aria-label="Loading portfolio">
+          <div className="loading-mark" aria-hidden="true">
+            <span />
+            <span />
+            <span />
+          </div>
+          <p className="loading-label">Rishangi</p>
+          <div className="loading-track" aria-hidden="true">
+            <span />
+          </div>
+        </div>
+      )}
+
       <div className="fixed inset-0 -z-10">
         <Meteors />
         <Particles
