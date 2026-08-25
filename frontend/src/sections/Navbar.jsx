@@ -29,7 +29,7 @@ const Navbar = () => {
             href="/"
             className="text-xl font-bold transition-colors text-neutral-400 hover:text-white"
           >
-            <img src="assets/logo.png" alt="logo" className="w-[10rem] h-[5rem] inline-block mr-2" />
+            <img src="assets/logos/logo.png" alt="logo" className="w-[10rem] h-[5rem] inline-block mr-2" />
           </a>
           <button
             onClick={() => setIsOpen(!isOPen)}
@@ -41,7 +41,7 @@ const Navbar = () => {
               alt="toggle"
             />
           </button>
-          <nav className="hidden sm:flex ">
+          <nav className="hidden sm:flex">
             <Navigation />
           </nav>
         </div>

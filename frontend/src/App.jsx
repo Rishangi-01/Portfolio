@@ -26,3 +26,38 @@ const App = () => {
 };
 
 export default App;
+
+
+
+
+// import { Routes, Route } from "react-router-dom";
+
+// import AdminLogin from "./admin/pages/AdminLogin";
+// import Dashboard from "./admin/pages/Dashboard";
+
+// import AdminLayout from "./admin/components/AdminLayout";
+// import ProtectedAdminRoute from "./admin/routes/ProtectedAdminRoute";
+
+// <Routes>
+
+//   <Route path="/" element={<Home />} />
+
+//   <Route
+//     path="/admin/login"
+//     element={<AdminLogin />}
+//   />
+
+//   <Route element={<ProtectedAdminRoute />}>
+    
+//     <Route path="/admin" element={<AdminLayout />}>
+      
+//       <Route
+//         path="dashboard"
+//         element={<Dashboard />}
+//       />
+
+//     </Route>
+
+//   </Route>
+
+// </Routes>
