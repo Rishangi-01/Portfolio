@@ -14,7 +14,7 @@ function Navigation() {
         <a href="/work" className="nav-link">Work</a>
       </li>
       <li className="nav-li">
-        <a href="/contact" className="nav-link">Contact</a>
+        <a href="/contact-us" className="nav-link">Contact</a>
       </li>
     </ul>
   );
@@ -23,13 +23,14 @@ const Navbar = () => {
   const [isOPen, setIsOpen] = useState(false);
   return (
     <div className="fixed inset-x-0 z-20 w-full backdrop-blur-lg bg-primary/40">
-      <div className="mx-auto c-space max-w-7xl">
+      <div className="mx-auto c-space max-w-7xl py-2">
         <div className="flex items-center justify-between py-2 sm:py-0">
           <a
             href="/"
             className="text-xl font-bold transition-colors text-neutral-400 hover:text-white"
           >
-            <img src="assets/port-logo.png" alt="logo" className="h-[4rem] inline-block mr-2" />
+            {/* <img src="assets/logo/Rishi-logo.png" alt="logo" className="h-[4rem] inline-block mr-2" /> */}
+            <img src="assets/logos/Rishi-logo.png" alt="logo" className="w-[12rem] inline-block mr-2" />
           </a>
           <button
             onClick={() => setIsOpen(!isOPen)}
@@ -41,7 +42,7 @@ const Navbar = () => {
               alt="toggle"
             />
           </button>
-          <nav className="hidden sm:flex ">
+          <nav className="hidden sm:flex">
             <Navigation />
           </nav>
         </div>
