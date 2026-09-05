@@ -37,129 +37,174 @@ export const myProjects = [
   },
   {
     id: 2,
-    title: "Authentication & Authorization System",
+    title: "Application Management & Evaluation Portal",
     description:
-      "A secure authentication and authorization system using Auth0 for seamless user management.",
+      "A secure and responsive web portal developed for managing nominee applications, assessment rounds, evaluations, scoring, and application workflows for the Quality Council of India.",
     subDescription: [
-      "Integrated Auth0 for authentication, supporting OAuth, JWT, and multi-factor authentication.",
-      "Implemented role-based access control (RBAC) for fine-grained user permissions.",
-      "Developed a React-based frontend with Tailwind CSS for a sleek user experience.",
-      "Connected to a secure SQLite database for user data storage.",
+      "Developed a modern and responsive interface for nominee registration, authentication, application management, and evaluation workflows.",
+      "Implemented intuitive dashboards and interactive components to simplify application tracking and assessment processes.",
+      "Built reusable React components with responsive layouts using Tailwind CSS and Bootstrap.",
+      "Integrated frontend interfaces with backend APIs for seamless data management, authentication, and application workflows.",
+      "Implemented interactive UI elements, animations, form validations, and user-friendly navigation to improve overall user experience.",
+      "Worked on multiple assessment-related screens including application submission, evaluation, scoring, guidelines, important updates, and nominee management."
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/auth-system.jpg",
+    image: "/assets/projects/qci-portal.png",
     tags: [
       {
         id: 1,
-        name: "Auth0",
-        path: "/assets/logos/auth0.svg",
-      },
-      {
-        id: 2,
         name: "React",
         path: "/assets/logos/react.svg",
       },
       {
+        id: 2,
+        name: "JavaScript",
+        path: "/assets/logos/javascript.svg",
+      },
+      {
         id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
+        name: "TailwindCSS",
+        path: "/assets/logos/tailwindcss.svg",
       },
       {
         id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
+        name: "Bootstrap",
+        path: "/assets/logos/bootstrap.svg",
+      },
+      {
+        id: 5,
+        name: "Node.js",
+        path: "/assets/logos/nodejs.svg",
+      },
+      {
+        id: 6,
+        name: "Express.js",
+        path: "/assets/logos/express.svg",
+      },
+      {
+        id: 7,
+        name: "MongoDB",
+        path: "/assets/logos/mongodb.svg",
       },
     ],
   },
   {
     id: 3,
-    title: "Blazor Web App",
+    title: "Employee Management CRM",
     description:
-      "A modern, interactive web application built with Blazor WebAssembly and .NET Core.",
+      "A centralized CRM and employee management system designed to streamline workforce operations, attendance tracking, payroll, finance, team management, and internal communication.",
     subDescription: [
-      "Developed a fully interactive Single Page Application (SPA) using Blazor WebAssembly.",
-      "Implemented API interactions using .NET Core for a robust backend.",
-      "Designed responsive UI components with Tailwind CSS for an enhanced UX.",
-      "Integrated SQLite for efficient client-side database storage.",
+      "Developed a centralized dashboard for managing employee operations and monitoring key organizational activities.",
+      "Implemented modules for attendance, salary management, finance, teams, facilities, salary slips, and internal messaging.",
+      "Designed an intuitive admin interface with a responsive sidebar navigation and role-based access to different management modules.",
+      "Built interactive dashboards to provide quick access to employee-related information and important operational data.",
+      "Implemented secure authentication and session-based access to protect administrative features and employee information.",
+      "Worked on dynamic data management and backend integration to support day-to-day HR and organizational workflows."
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/blazor-app.jpg",
+    image: "/assets/projects/crm-dashboard.png",
     tags: [
       {
         id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
+        name: "PHP",
+        path: "/assets/logos/php.svg",
       },
       {
         id: 2,
-        name: ".NET Core",
-        path: "/assets/logos/dotnetcore.svg",
+        name: "JavaScript",
+        path: "/assets/logos/javascript.svg",
       },
       {
         id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
+        name: "HTML",
+        path: "/assets/logos/html.svg",
       },
       {
         id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
+        name: "CSS",
+        path: "/assets/logos/css.svg",
+      },
+      {
+        id: 5,
+        name: "MySQL",
+        path: "/assets/logos/mysql.svg",
+      },
+      {
+        id: 6,
+        name: "Bootstrap",
+        path: "/assets/logos/bootstrap.svg",
       },
     ],
   },
   {
     id: 4,
-    title: "C++ Game Engine",
+    title: "Sports & Gaming Platform",
     description:
-      "A lightweight C++ game engine designed for 2D and 3D game development.",
+      "A feature-rich sports and gaming platform built with React.js and Node.js, providing interactive sports listings, live match information, gaming sections, user management, and a dynamic web experience.",
     subDescription: [
-      "Built a powerful rendering engine using OpenGL and C++.",
-      "Developed a physics engine with collision detection and particle effects.",
-      "Implemented a scripting system for easy game customization.",
-      "Optimized performance with multi-threading and efficient memory management.",
+      "Developed a responsive and interactive frontend using React.js, JavaScript, HTML, CSS, and Bootstrap.",
+      "Built backend services and RESTful APIs using Node.js and Express.js for handling application logic, users, and dynamic data.",
+      "Integrated MySQL for structured data storage and efficient management of users, sports, matches, and platform-related information.",
+      "Implemented dynamic sports sections covering cricket, football, tennis, horse racing, and other sports with interactive match interfaces.",
+      "Developed reusable React components and responsive layouts to provide a consistent experience across different screen sizes.",
+      "Implemented user authentication, account management, dynamic content handling, and API-driven data rendering.",
+      "Optimized frontend interactions and application workflows to provide a smooth and responsive user experience."
     ],
-    href: "",
+    href: "https://r777.guru/",
     logo: "",
-    image: "/assets/projects/game-engine.jpg",
+    image: "/assets/projects/sports-gaming-platform.png",
     tags: [
       {
         id: 1,
-        name: "C++",
-        path: "/assets/logos/cplusplus.svg",
+        name: "React",
+        path: "/assets/logos/react.svg",
       },
       {
         id: 2,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
+        name: "Node.js",
+        path: "/assets/logos/nodejs.svg",
       },
       {
         id: 3,
-        name: "Git",
-        path: "/assets/logos/git.svg",
+        name: "Express.js",
+        path: "/assets/logos/express.svg",
       },
       {
         id: 4,
-        name: "Microsoft",
-        path: "/assets/logos/microsoft.svg",
+        name: "MySQL",
+        path: "/assets/logos/mysql.svg",
+      },
+      {
+        id: 5,
+        name: "JavaScript",
+        path: "/assets/logos/javascript.svg",
+      },
+      {
+        id: 6,
+        name: "Bootstrap",
+        path: "/assets/logos/bootstrap.svg",
       },
     ],
   },
   {
     id: 5,
-    title: "WordPress Custom Theme",
+    title: "ThixIndia Charity Foundation Website",
     description:
-      "A fully customizable WordPress theme optimized for performance and SEO.",
+      "A professional and responsive NGO website developed for ThixIndia Charity Foundation to showcase its social initiatives, manage donation campaigns, promote events, and connect donors and volunteers.",
     subDescription: [
-      "Developed a responsive WordPress theme using HTML5, CSS3, and JavaScript.",
-      "Integrated Tailwind CSS for modern styling and UI enhancements.",
-      "Optimized SEO and page speed using Vite.js for fast builds.",
-      "Implemented custom widgets and plugin compatibility for extended functionality.",
+      "Developed a responsive and user-friendly charity website with a clean, modern interface focused on accessibility and engagement.",
+      "Implemented dedicated sections for child education, healthcare, food assistance, elderly care, needy people, and other social initiatives.",
+      "Built dynamic donation campaign sections with fundraising goals, progress indicators, donation options, and cause-specific information.",
+      "Integrated donation-focused user interfaces including donor information forms, donation categories, and 80G certificate options.",
+      "Developed pages and sections for events, gallery, volunteer opportunities, team information, blogs, and organizational activities.",
+      "Implemented responsive navigation, interactive UI elements, contact sections, social media integration, and mobile-friendly layouts.",
+      "Optimized the website structure and user experience to make important information, campaigns, and donation opportunities easily accessible."
     ],
-    href: "",
+    href: "https://thixindia.in/",
     logo: "",
-    image: "/assets/projects/wordpress-theme.jpg",
+    image: "/assets/projects/thixindia.png",
     tags: [
       {
         id: 1,
@@ -178,45 +223,58 @@ export const myProjects = [
       },
       {
         id: 4,
-        name: "Vite.js",
-        path: "/assets/logos/vitejs.svg",
+        name: "JavaScript",
+        path: "/assets/logos/javascript.svg",
+      },
+      {
+        id: 5,
+        name: "Bootstrap",
+        path: "/assets/logos/bootstrap.svg",
       },
     ],
   },
   {
     id: 6,
-    title: "Online Learning Platform",
+    title: "Lane24 Interior & Lifestyle E-commerce Website",
     description:
-      "A web application that allows users to enroll in courses, watch video lectures, and take quizzes.",
+      "A premium and responsive e-commerce website designed for Lane24 to showcase and promote modern lighting, décor, planters, diffusers, candles, and smart home lifestyle products.",
     subDescription: [
-      "Built using Blazor WebAssembly for a seamless SPA experience.",
-      "Implemented video streaming with Azure Media Services.",
-      "Added a quiz system with dynamic question generation and real-time grading.",
-      "Integrated Stripe API for secure payment processing.",
+      "Developed a modern and visually engaging e-commerce interface focused on premium product presentation and seamless user experience.",
+      "Implemented structured product categories including lamps, décor, soft décor, wall décor, planters, diffusers, candles, and home automation.",
+      "Created immersive hero banners and promotional sections to highlight featured collections, limited editions, and product categories.",
+      "Developed responsive navigation, product showcases, interactive elements, and category-based browsing for a smooth shopping experience.",
+      "Implemented reusable UI components and responsive layouts to maintain consistency across desktop, tablet, and mobile devices.",
+      "Focused on clean typography, visual hierarchy, spacing, and premium UI design to match the brand's interior and lifestyle aesthetic.",
+      "Integrated contact and social media elements along with user-oriented navigation to improve accessibility and customer engagement."
     ],
-    href: "",
+    href: "https://www.lane24.design/",
     logo: "",
-    image: "/assets/projects/elearning.jpg",
+    image: "/assets/projects/lane24.png",
     tags: [
       {
         id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
+        name: "WordPress",
+        path: "/assets/logos/wordpress.svg",
       },
       {
         id: 2,
-        name: "Azure",
-        path: "/assets/logos/azure.svg",
+        name: "HTML5",
+        path: "/assets/logos/html5.svg",
       },
       {
         id: 3,
-        name: "Stripe",
-        path: "/assets/logos/stripe.svg",
+        name: "CSS3",
+        path: "/assets/logos/css3.svg",
       },
       {
         id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
+        name: "JavaScript",
+        path: "/assets/logos/javascript.svg",
+      },
+      {
+        id: 5,
+        name: "Bootstrap",
+        path: "/assets/logos/bootstrap.svg",
       },
     ],
   },
@@ -243,38 +301,46 @@ export const mySocials = [
 
 export const experiences = [
   {
-    title: "Software Developer",
-    job: "Security & Defense Projects",
-    date: "2021-2023",
+    title: "Frontend Development Trainee",
+    job: "DigiCoders",
+    date: "July 2024 - December 2024",
     contents: [
-      "Enhanced application security and developed new features, adhering to standards set by the Passive Defense Organization and National Cyberspace Center.",
-      "Designed and implemented intuitive map interfaces using MapsUI, enhancing user experience and enabling seamless interactive map integration.",
-      "Developed applications for industrial automation, leveraging C++ and the Fatek API for PLC communication.",
-      "Enhanced responsiveness and usability of applications using Windows Forms and WPF frameworks.",
-      "Executed XML to SVG conversions using X-DOM, ensuring dynamic and efficient data visualization.",
-    ],
+      "Completed intensive hands-on training in modern web development, building a strong foundation in frontend technologies and full-stack development.",
+      "Developed responsive and interactive web interfaces using HTML, CSS, JavaScript, Bootstrap, Tailwind CSS, and React.js.",
+      "Worked with modern UI and animation libraries including GSAP, Framer Motion, Ant Design, and shadcn/ui to create engaging user experiences.",
+      "Gained practical experience with MongoDB and backend concepts while working on full-stack web application workflows.",
+      "Built and refined multiple practice projects, strengthening skills in responsive design, component-based development, UI/UX implementation, and modern JavaScript."
+    ]
   },
+
   {
-    title: "Back-End Developer",
-    job: "Car Manufacture",
-    date: "2023-2024",
+    title: "Frontend Developer",
+    job: "Bhoomi Techzone Pvt. Ltd.",
+    date: "January 2025 - May 2025",
     contents: [
-      "Engineered systems for large-scale data ingestion and analysis, ensuring efficient data processing and storage.",
-      "Developed back-end systems enabling vehicle-to-cloud communication for telemetry, diagnostics, and remote control:",
-      "✅ Implemented secure APIs, following ISO 26262 automotive safety standards.",
-      "✅ Ensured data privacy for customers and partners through industry-compliant protocols.",
-      "✅ Delivered remote features like over-the-air updates, real-time tracking, and remote start capabilities.",
-    ],
+      "Developed responsive and user-friendly web applications using React.js, JavaScript, HTML, CSS, Tailwind CSS, and Bootstrap.",
+      "Built reusable and maintainable React components while following modern frontend development practices.",
+      "Translated UI/UX designs into responsive, production-ready interfaces with a strong focus on usability and cross-device compatibility.",
+      "Improved application interfaces through responsive layouts, interactive components, and optimized frontend workflows.",
+      "Collaborated on real-world development tasks while strengthening practical experience in professional software development."
+    ]
   },
+
   {
-    title: "Freelance Developer",
-    job: "Self-Employed",
-    date: "2025-Present",
+    title: "MERN Stack Developer",
+    job: "Thixpro Technologies Pvt. Ltd.",
+    date: "May 2025 - Present",
     contents: [
-      "Created a personal portfolio using Three.js, React, Vite, and WebAPI to showcase technical expertise.",
-      "Continuously enhancing technical skills and expanding expertise in modern web development and back-end technologies.",
-    ],
-  },
+      "Developing and maintaining full-stack web applications using the MERN stack, with React.js, Node.js, Express.js, MongoDB, and MySQL.",
+      "Building responsive and interactive user interfaces using React.js, Tailwind CSS, Bootstrap, GSAP, and Framer Motion.",
+      "Developing RESTful APIs and backend services with Node.js and Express.js, including data management and server-side application logic.",
+      "Managing application state and complex frontend workflows using Redux Toolkit while developing reusable and scalable React components.",
+      "Working with both MongoDB and MySQL for efficient data storage, retrieval, and application integration.",
+      "Contributing to real-world projects across frontend and backend development, with additional hands-on exposure to PHP.",
+      "Continuously improving application performance, responsiveness, user experience, and code maintainability through modern development practices."
+    ]
+  }
+
 ];
 export const reviews = [
   {
